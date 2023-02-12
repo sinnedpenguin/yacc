@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yet Another Cookie Clicker Clone</title>
+</head>
+<body>
+    <div id="app">
+        <div id="score">
+            <p id="title">Yet Another Cookie Clicker Clone</p>
+            <p id="cookies">Cookies: 0</p>
+            <p id="cps">(+0 cookies per second)</p>
+            <button onclick="cookiePlus()" id="cookie-btn">🍪</button>
+        </div>
+
+        <div id="shop">
+            <br>
+            <span id="cursor">🖱️: 0</span>
+            <button onclick="buyCursor()" id="buy-cursor">Buy cursor: 25 🍪</button>
+            <br>
+            <span id="grandma">👵: 0</span>
+            <button onclick="buyGrandma()" id="buy-grandma">Buy grandma: 100 🍪</button>
+            <br>
+            <span id="farm">🚜: 0</span>
+            <button onclick="buyFarm()" id="buy-farm">Buy farm: 300 🍪</button>
+            <br>
+            <span id="mine">⛏️: 0</span>
+            <button onclick="buyMine()" id="buy-mine">Buy mine: 400 🍪</button>
+            <br>
+            <span id="factory">🏭: 0</span>
+            <button onclick="buyFactory()" id="buy-factory">Buy factory: 500 🍪</button>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
